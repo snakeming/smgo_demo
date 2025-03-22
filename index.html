@@ -12,7 +12,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  
+  <base href="/smgo_demo/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -114,16 +114,16 @@
       
 
       // Register the service worker
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/smgo_demo/assets/web/firebase-messaging-sw.js')
-        .then(function(registration) {
-          console.log('Service Worker registration successful with scope: ', registration.scope);
-        }).catch(function(err) {
-          console.log('Service Worker registration failed: ', err);
-        });
-      } else {
-        console.log('Service Worker is not supported by browser.');
-      }
+      // if ('serviceWorker' in navigator) {
+      //   navigator.serviceWorker.register('/smgo_demo/assets/web/firebase-messaging-sw.js')
+      //   .then(function(registration) {
+      //     console.log('Service Worker registration successful with scope: ', registration.scope);
+      //   }).catch(function(err) {
+      //     console.log('Service Worker registration failed: ', err);
+      //   });
+      // } else {
+      //   console.log('Service Worker is not supported by browser.');
+      // }
       
       // Initialize Firebase
       //firebase.initializeApp(firebaseConfig);
