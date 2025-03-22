@@ -111,20 +111,27 @@
         measurementId: "G-L60V8QS154"
       };
 
-       // Initialize Firebase
-       //firebase.initializeApp(firebaseConfig);
+      
 
       // Register the service worker
-      // if ('serviceWorker' in navigator) {
-      //   navigator.serviceWorker.register('/smgo_demo/assets/web/firebase-messaging-sw.js')
-      //   .then(function(registration) {
-      //     console.log('Service Worker registration successful with scope: ', registration.scope);
-      //   }).catch(function(err) {
-      //     console.log('Service Worker registration failed: ', err);
-      //   });
-      // }
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/smgo_demo/assets/web/firebase-messaging-sw.js')
+        .then(function(registration) {
+          console.log('Service Worker registration successful with scope: ', registration.scope);
+        }).catch(function(err) {
+          console.log('Service Worker registration failed: ', err);
+        });
+      } else {
+        console.log('Service Worker is not supported by browser.');
+      }
+      
+      // Initialize Firebase
+      //firebase.initializeApp(firebaseConfig);
+      const firebaseApp = initializeApp(firebaseConfig);
+      const messaging = getMessaging(firebaseApp);
 
-      const messaging = firebase.messaging();
+      // navigator.serviceWorker.register('/smgo_demo/assets/web/firebase-messaging-sw.js').then((registration) => getToken(registration, vapidKey));
+      // const messaging = firebase.messaging();
 
     </script>
 
