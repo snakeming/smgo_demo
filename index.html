@@ -95,8 +95,8 @@
     }
   </script>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-messaging-compat.js"></script>
     <script>
       // config below could obtain from firebase console, web app part
       // Your web app's Firebase configuration
@@ -115,14 +115,16 @@
        firebase.initializeApp(firebaseConfig);
 
       // Register the service worker
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/smgo_demo/assets/web/firebase-messaging-sw.js')
-        .then(function(registration) {
-          console.log('Service Worker registration successful with scope: ', registration.scope);
-        }).catch(function(err) {
-          console.log('Service Worker registration failed: ', err);
-        });
-      }
+      // if ('serviceWorker' in navigator) {
+      //   navigator.serviceWorker.register('/smgo_demo/assets/web/firebase-messaging-sw.js')
+      //   .then(function(registration) {
+      //     console.log('Service Worker registration successful with scope: ', registration.scope);
+      //   }).catch(function(err) {
+      //     console.log('Service Worker registration failed: ', err);
+      //   });
+      // }
+
+      const messaging = firebase.messaging();
 
     </script>
 
