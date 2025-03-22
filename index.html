@@ -95,47 +95,6 @@
     }
   </script>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-messaging-compat.js"></script>
-    <script>
-      // config below could obtain from firebase console, web app part
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyBRsEFsDhYuxptfsQwNy2pnZvvq28FW5nY",
-        authDomain: "smgo-6137e.firebaseapp.com",
-        projectId: "smgo-6137e",
-        storageBucket: "smgo-6137e.firebasestorage.app",
-        messagingSenderId: "568684281036",
-        appId: "1:568684281036:web:35af27b7d1e316c86c9669",
-        measurementId: "G-L60V8QS154"
-      };
-
-      
-
-      // Register the service worker
-      // if ('serviceWorker' in navigator) {
-      //   navigator.serviceWorker.register('/smgo_demo/assets/web/firebase-messaging-sw.js')
-      //   .then(function(registration) {
-      //     console.log('Service Worker registration successful with scope: ', registration.scope);
-      //   }).catch(function(err) {
-      //     console.log('Service Worker registration failed: ', err);
-      //   });
-      // } else {
-      //   console.log('Service Worker is not supported by browser.');
-      // }
-      
-      // Initialize Firebase
-      //firebase.initializeApp(firebaseConfig);
-      const firebaseApp = initializeApp(firebaseConfig);
-      const messaging = getMessaging(firebaseApp);
-
-      // navigator.serviceWorker.register('/smgo_demo/assets/web/firebase-messaging-sw.js').then((registration) => getToken(registration, vapidKey));
-      // const messaging = firebase.messaging();
-
-    </script>
-
-
 </head>
 <body>
   <picture id="splash-branding">
