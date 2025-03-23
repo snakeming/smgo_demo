@@ -17,4 +17,20 @@ const messaging = firebase.messaging();
 // Optional:
 messaging.onBackgroundMessage((message) => {
   console.log("onBackgroundMessage", message);
+
+  const notificationTitle = payload.notification.title;
+  const notificationOptions = {
+    body: payload.notification.body,
+  };
+
+  self.registration.showNotification(notificationTitle,
+    notificationOptions);
+
+  
+
+  // support show notification on browser
+  // see 
+  // 0: https://codingwithtashi.medium.com/flutter-web-push-notification-with-firebase-cloud-messaging-adc788dc621d
+  // 1. https://stackoverflow.com/questions/66519726/flutter-web-app-receives-push-notification-but-broswer-doesnt-show-it
+  // 2. https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification
 });
