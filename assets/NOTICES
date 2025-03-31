@@ -7031,6 +7031,7 @@ dart_geo_string
 dart_geofence
 dart_headstart
 dart_headstart_request
+dart_key_value_cache
 dart_mercure_sse
 dart_sm_app_core
 dart_sm_log
