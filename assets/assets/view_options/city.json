@@ -1,0 +1,30 @@
+{
+
+        "page":{
+            "layout": "edit_as_drawer"
+        },
+        "list": {
+            "fields": [
+                "name",
+                "code",
+                "region",
+                "open"
+            ]
+        },
+        "edit": {
+            "style": "compact-row",
+            "groups": {
+                "map": {
+                    "name": {
+                        "en": "Map",
+                        "zh-HK": "地圖",
+                        "th": "แผนที่",
+                        "vi": "Bản đồ",
+                        "ms": "Peta"
+                    },
+                    "icon": "fas-map-location-dot",
+                    "type": "basic"
+                }
+            }
+        }
+    }

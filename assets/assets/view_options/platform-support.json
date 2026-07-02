@@ -1,0 +1,10 @@
+{
+    "list": {
+        "fields": [
+            "language",
+            "title",
+            "category",
+            "sequence"
+        ]
+    }
+}

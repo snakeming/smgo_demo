@@ -1,0 +1,185 @@
+[
+    {
+        "name": {
+            "en": "Home",
+            "zh-HK": "主頁",
+            "th": "หน้าหลัก",
+            "vi": "Trang chủ",
+            "ms": "Laman Utama"
+        },
+        "key": "home",
+        "icon": "fas-home",
+        "path": "/sp/:sender/home/"
+    },
+    {
+        "name": {
+            "en": "Work Order"
+        },
+        "key": "saas-order",
+        "icon": "fas-inbox",
+        "path": "/work-order"
+    },
+    {
+        "name": {
+            "en": "Partner Job"
+        },
+        "key": "partner-job",
+        "icon": "fas-inbox",
+        "path": "/partner-job"
+    },
+    {
+        "name": {
+            "en": "Partner Task"
+        },
+        "key": "partner-task",
+        "icon": "fas-inbox",
+        "path": "/partner-task"
+    },
+    {
+        "name": {
+            "en": "Dashboard"
+        },
+        "key": "sp-dashboard",
+        "icon": "fas-gauge",
+        "path": "/sp/:sender/dashboard/"
+    },
+    {
+        "name": {
+            "en": "Partners"
+        },
+        "key": "partners-location",
+        "icon": "fas-location-dot",
+        "path": "/sp/:sender/partner/location/"
+    },
+    {
+        "name": {
+            "en": "Work Order 2"
+        },
+        "key": "saas-order",
+        "icon": "fas-inbox",
+        "path": "/sp/:sender/work-order/"
+    },
+    {
+        "name": {
+            "en": "Rounds"
+        },
+        "key": "sp-rounds",
+        "icon": "fas-person-biking",
+        "child": [
+            {
+                "name": {
+                    "en": "Route Plan"
+                },
+                "key": "route-plan",
+                "icon": "fas-route",
+                "path": "/sp/:sender/route-plan/"
+            },
+            {
+                "name": {
+                    "en": "On-going Round"
+                },
+                "key": "on-going-round",
+                "icon": "fas-chart-simple",
+                "path": "/sp/:sender/round/on-going"
+            }
+        ]
+    },
+    
+    {
+        "name": {
+            "en": "Tasks"
+        },
+        "key": "sp-task",
+        "icon": "fas-location-dot",
+        "path": "/sp/:sender/task/"
+    },
+    {
+        "name": {
+            "en": "Map"
+        },
+        "key": "sp-map",
+        "icon": "fas-map-marked-alt",
+        "child": [{
+            "name": {
+                "en": "Zones"
+            },
+            "key": "sp-zone",
+            "icon": "fas-draw-polygon",
+            "path": "/sp/:sender/zone/"
+        },{
+            "name": {
+                "en": "Hub"
+            },
+            "key": "sp-hub",
+            "icon": "fas-location-dot",
+            "path": "/sp/:sender/hub/"
+        }]
+    },
+    {
+        "name": {
+            "en": "Ticket"
+        },
+        "key": "sp-ticket",
+        "icon": "fas-comments",
+        "path": "/sp/:sender/ticket/"
+    },
+    {
+        "name": {
+            "en": "Insight"
+        },
+        "key": "sp-insight",
+        "icon": "fas-chart-simple",
+        "path": "/sp/:sender/insight/"
+    },
+    {
+        "name": {
+            "en": "Administration"
+        },
+        "key": "sp-admin",
+        "icon": "fas-wrench",
+        "child": [
+            {
+                "name": {
+                    "en": "Calendar"
+                },
+                "key": "sp-calendar",
+                "icon": "fas-calendar",
+                "path": "/sp/:sender/block-off-date"
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Help"
+        },
+        "key": "sp-help",
+        "icon": "fas-circle-question",
+        "child":[
+            {
+                "name": {
+                    "en": "Internal"
+                },
+                "key": "sp-help-internal",
+                "icon": "fas-circle-info",
+                "path": "/sp/:sender/support/internal/"
+            },
+            {
+                "name": {
+                    "en": "Public"
+                },
+                "key": "sp-help-public",
+                "icon": "fas-circle-question",
+                "path": "/sp/:sender/support/public/"
+            }
+           
+        ]
+    },
+    {
+        "name": {
+            "en": "Messages"
+        },
+        "key": "sp-messages",
+        "icon": "fas-envelope",
+        "path": "/sp/:sender/sp/message/"
+    }
+]

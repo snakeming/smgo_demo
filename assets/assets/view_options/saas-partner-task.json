@@ -1,0 +1,35 @@
+{
+    "page":{
+        "layout": "edit_as_drawer"
+    },
+    "list": {
+        "fields": [
+            "hub",
+            "title",
+            "start_time",
+            "status_code"
+        ],
+        "sort": "id:desc"
+    },
+    "edit": {
+        "style": "compact-row",
+        "groups": {
+            "dispatch": {
+                "name": {
+                    "en": "dispatch",
+                    "zh-HK": "調度",
+                    "th": "ส่ง",
+                    "vi": "gửi",
+                    "ms": "hantar"
+                },
+                "icon": "fas-info-circle",
+                "type": "basic"
+            },
+            "detail": {
+                "name": "detail",
+                "icon": "fas-info-circle",
+                "type": "basic"
+            }
+        }
+    }
+}

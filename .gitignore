@@ -5,3 +5,4 @@ doc/typedoc/
 coverage/
 .vscode/
 lib/
+.DS_Store

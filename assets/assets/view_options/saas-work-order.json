@@ -1,0 +1,15 @@
+{
+
+        "page":{
+            "layout": "edit_as_drawer"
+        },
+        "list": {
+            "fields": [
+                "start_date", "start_time", "start", "end", "status_code"
+            ]
+        },
+        "edit": {
+            "style": "compact-row"
+           
+        }
+    }

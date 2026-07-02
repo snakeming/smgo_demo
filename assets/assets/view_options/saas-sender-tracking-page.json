@@ -1,0 +1,92 @@
+{
+    "edit": {
+        "groups": {
+            "access_permission": {
+                "name": {
+                    "en": "Access Permission",
+                    "zh-HK": "訪問權限",
+                    "th": "สิทธิ์การเข้าถึง",
+                    "vi": "Quyền truy cập",
+                    "ms": "Kebenaran Akses"
+                },
+                "type": "basic"
+            },
+            "branding": {
+                "name": {
+                    "en": "Branding",
+                    "zh-HK": "品牌",
+                    "th": "แบรนด์",
+                    "vi": "Thương hiệu",
+                    "ms": "Penjenamaan"
+                },
+                "icon": "fas-heart",
+                "type": "basic"
+            },
+            "color_scheme": {
+                "name": {
+                    "en": "color scheme",
+                    "zh-HK": "配色方案",
+                    "th": "แบบแผนการให้สี",
+                    "vi": "sơ đồ màu",
+                    "ms": "skim warna"
+                },
+                "description": {
+                    "en": "Add your branding colors to customize titles, buttons, and other elements.",
+                    "zh-HK": "添加您的品牌顏色以自定義標題、按鈕和其他元素。",
+                    "th": "เพิ่มสีแบรนด์ของคุณเพื่อปรับแต่งชื่อเรื่อง ปุ่ม และองค์ประกอบอื่น ๆ",
+                    "vi": "Thêm màu sắc thương hiệu của bạn để tùy chỉnh tiêu đề, nút và các yếu tố khác.",
+                    "ms": "Tambahkan warna jenama anda untuk menyesuaikan tajuk, butang, dan elemen lain."
+                },
+                "footnote": {
+                    "en": "Background color will be use if background image not available",
+                    "zh-HK": "如果背景圖像不可用，則將使用背景顏色",
+                    "th": "สีพื้นหลังจะถูกใช้หากไม่มีภาพพื้นหลัง",
+                    "vi": "Màu nền sẽ được sử dụng nếu không có hình nền",
+                    "ms": "Warna latar belakang akan digunakan jika imej latar belakang tidak tersedia"
+                },
+                "icon": "fas-palette",
+                "type": "basic"
+            },
+            "promotion": {
+                "name": {
+                    "en": "Promotion",
+                    "zh-HK": "促銷",
+                    "th": "โปรโมชั่น",
+                    "vi": "Khuyến mãi",
+                    "ms": "Promosi"
+                },
+                "icon": "fas-rectangle-ad",
+                "type": "tab_span"
+            },
+            "company_contact": {
+                "name": {
+                    "en": "Company contact",
+                    "zh-HK": "公司聯絡人",
+                    "th": "ผู้ติดต่อบริษัท",
+                    "vi": "Liên hệ công ty",
+                    "ms": "Hubungi syarikat"
+                },
+                "description": {
+                    "en": "Add your availability and contact information to help customers get in touch.",
+                    "zh-HK": "添加您的聯繫信息及可聯絡時間以幫助客戶聯繫。",
+                    "th": "เพิ่มข้อมูลความพร้อมและข้อมูลการติดต่อของคุณเพื่อช่วยลูกค้าติดต่อกัน",
+                    "vi": "Thêm thông tin khả dụng và liên hệ của bạn để giúp khách hàng liên hệ.",
+                    "ms": "Tambahkan ketersediaan dan maklumat hubungan anda untuk membantu pelanggan menghubungi."
+                },
+                "icon": "fas-address-book",
+                "type": "tab_span"
+            },
+            "location_detail": {
+                "name": {
+                    "en": "Location detail",
+                    "zh-HK": "位置詳情",
+                    "th": "รายละเอียดตำแหน่ง",
+                    "vi": "Chi tiết vị trí",
+                    "ms": "Butiran lokasi"
+                },
+                "icon": "fas-person-chalkboard",
+                "type": "basic"
+            }
+        }
+    }
+}

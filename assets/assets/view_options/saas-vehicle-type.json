@@ -1,0 +1,33 @@
+{
+    "list": {
+        "fields": [
+            "name"
+        ]
+    },
+    "edit": {
+        "groups": {
+            "general": {
+                "name": {
+                    "en": "General",
+                    "zh-HK": "一般",
+                    "th": "ทั่วไป",
+                    "vi": "Chung",
+                    "ms": "Umum"
+                },
+                "icon": "ios-information-circle",
+                "type": "basic"
+            },
+            "round": {
+                "name": {
+                    "en": "round",
+                    "zh-HK": "輪次",
+                    "th": "รอบ",
+                    "vi": "Vòng",
+                    "ms": "Bulat"
+                },
+                "icon": "fas-person-walking-arrow-loop-left",
+                "type": "basic"
+            }
+        }
+    }
+}

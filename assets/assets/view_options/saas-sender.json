@@ -1,0 +1,61 @@
+{
+    "list": {
+        "fields": [
+            "name",
+            "type"
+        ]
+    },
+    "edit": {
+        "groups": {
+            "general": {
+                "name": {
+                    "en": "General",
+                    "zh-HK": "一般",
+                    "th": "ทั่วไป",
+                    "vi": "Chung",
+                    "ms": "Umum"
+                },
+                "icon": "ios-information-circle",
+                "type": "basic"
+            },
+            "information": {
+                "name": {
+                    "en": "Company Information",
+                    "zh-HK": "公司資訊",
+                    "th": "ข้อมูลบริษัท",
+                    "vi": "Thông tin công ty",
+                    "ms": "Maklumat Syarikat"
+                },
+                "icon": "ios-information-circle",
+                "type": "basic"
+            },
+            "integration": {
+                "name": {
+                    "en": "Integration",
+                    "zh-HK": "整合",
+                    "th": "การผสานรวม",
+                    "vi": "Tích hợp",
+                    "ms": "Pengintegrasian"
+                },
+                "description": {
+                    "en": "Used for validating requests made via Open API",
+                    "zh-HK": "用於驗證經 Open API 下單的請求",
+                    "th": "ใช้สำหรับการตรวจสอบคำขอที่ทำได้ผ่าน Open API",
+                    "vi": "Được sử dụng để xác minh các yêu cầu được thực hiện qua Open API",
+                    "ms": "Digunakan untuk mengesahkan permintaan yang dibuat melalui Open API"
+                },
+                "type": "basic"
+            },
+            "flow": {
+                "name": {
+                    "en": "Flow",
+                    "zh-HK": "流程",
+                    "th": "กระแส",
+                    "vi": "Dòng",
+                    "ms": "Aliran"
+                },
+                "type": "basic"
+            }
+        }
+    }
+}

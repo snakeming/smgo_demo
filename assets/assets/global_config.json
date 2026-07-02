@@ -1,6 +1,7 @@
 {
     "api_url": {
-        "baseUrl": "https://smartgo.hopto.org/SmartMinds"
+        "baseUrl": "https://localhost:8000/Milely",
+        "__baseUrl": "https://10.0.2.2:8000/Milely"
         
     },
     "market": ["HK", "TH", "VN"]

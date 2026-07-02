@@ -1,7 +1,7 @@
 {
     "id": 2,
     "tenant": 1000000,
-    "order": 1,
+    "job": 1,
     "sender": 1,
     "hub": 2,
     "zone": null,
@@ -18,7 +18,7 @@
     "service_time": 10,
     "start": [
       {
-        "__component": "ds.start-address",
+        "__component": "common.task-address",
         "name": "Mr Open",
         "phone": "123123",
         "address": "長沙灣荔枝角道 深水埗運動場籃球場",
@@ -27,7 +27,7 @@
     ],
     "end": [
       {
-        "__component": "ds.end-address",
+        "__component": "common.task-address",
         "name": "014",
         "phone": "123123",
         "address": "MeiFoo",
@@ -76,6 +76,9 @@
         "__uuid": "bc550e79-0d0a-463b-9557-9f6b9036bc68_inline"
       }
     ],
+    "partner_accept_time": 0,
+    "partner_start_time": 0,
+    "partner_end_time": 0,
     "status_code": 405,
-    "status_group": 10
+    "status_group": 20
   }
